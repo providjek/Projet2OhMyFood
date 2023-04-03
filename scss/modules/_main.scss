@@ -137,6 +137,24 @@
         }
     }
 
+    //Responsive
+    @include media-breakpoint-up("md"){
+        .section__title {
+            text-align: center;
+        }
+        .bloc-item{
+            display: flex;
+            justify-content: space-between;
+        }
+        .content-restaurant {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            /* grid-template-rows: repeat(3, 1fr); */
+            justify-items: center;
+            overflow-x: hidden;
+        }
+    };
+
 
 
 }

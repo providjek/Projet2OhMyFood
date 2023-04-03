@@ -6,6 +6,15 @@ $color : (
      "white" : #fff
 );
 
+$breakpoint : (    
+    xs : 0,
+    sm : 576px,
+    md : 768px, 
+    lg : 992px, 
+    xl : 1200px,
+    xxl : 1400px
+);
+
 $font-family-title : "Shrikhand", sans-serif;
 
 $font-family-text : "Roboto", sans-serif;

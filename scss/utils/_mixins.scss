@@ -8,6 +8,18 @@
     max-width: 100%;
     height: auto;
 }
+
+@mixin media-breakpoint-up($size) {
+    @media screen and (min-width : map-get($breakpoint , $size)){
+      @content
+    }  
+}
+
+@mixin media-breakpoint-down($size) {
+  @media screen and (max-width : map-get($breakpoint , $size)){
+    @content
+  }  
+}
   
 @mixin button-responsive($bg-color, $text-color, $border-radius, $height) {
   display: inline-block;
