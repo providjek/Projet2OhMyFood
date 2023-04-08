@@ -77,10 +77,13 @@
     &__heart{
         display: inline-block;
         position: relative;
+        width: 20px;
+        height: 35px;
+
 
         i{
             position: absolute;
-            top: 0;
+            top: 9;
             left: 0;
             //padding-top: 7px;
             font-size: 1.7rem;

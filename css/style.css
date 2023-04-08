@@ -243,6 +243,8 @@
 .restaurant-card__heart {
   display: inline-block;
   position: relative;
+  width: 35px;
+  height: 35px;
 }
 .restaurant-card__heart i {
   position: absolute;
