@@ -66,15 +66,26 @@
     &:hover{
     cursor: pointer;
     opacity: 1;
-    animation-name: fade-in;
     animation-duration: 0.5s;
     animation: flash 1.5s;
     box-shadow: 5px 15px 21px #00000080;
     }
 
+
+
+
     
     }
 }
+
+@keyframes flash {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
 
 //#fonctionnement{
 
